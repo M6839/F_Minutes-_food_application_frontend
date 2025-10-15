@@ -103,13 +103,13 @@ const handleAdditemsToCart = async (item: Product) => {
 };
 
   return (
-    <div>
-        <div className='mx-4 md:mx-20'>
-             <h1 className='text-white text-center text-[28px] font-bold mt-10 bg-amber-500 '>{firm.firmName}</h1>
+    <div className='bg-white min-h-screen'>
+        <div className='mx-4 md:mx-20 py-10'>
+             <h1 className='text-white text-center text-[28px] font-bold  bg-amber-500 '>{firm.firmName}</h1>
             <div>
                 {
                     products?.map((item)=>(
-                        <div key={item._id} className='mt-6'>
+                        <div key={item._id} className='mt-6 text-black'>
                             <hr className=''/>
                             <div className='flex justify-between  md:mx-20 mt-8'>
                             <div>

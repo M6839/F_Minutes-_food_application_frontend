@@ -58,11 +58,11 @@ const FilterResturent = () => {
     <div className='mx-4 md:mx-20'>
         <h1 className='text-[23px] font-bold'>All Category  Resturents in Hyderabad</h1>
         <div className='flex gap-[15px] my-4'>
-            <button className={`text-[] px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='all' && "bg-gray-400"}`} onClick={()=>setResturentType('all')}>All</button>
-            <button className={`text-[] px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='south-indian' && "bg-gray-400"}`} onClick={()=>setResturentType('south-indian')}>South Indian</button>
-            <button className={`text-[] px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='north-indian' && "bg-gray-400"}`} onClick={()=>setResturentType('north-indian')}>North Indian</button>
-            <button className={`text-[] px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='chinese' && "bg-gray-400"}`} onClick={()=>setResturentType('chinese')}>Chinese</button>
-            <button className={`text-[] px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='bakery' && "bg-gray-400"}`} onClick={()=>setResturentType('bakery')}>Backery</button>
+            <button className={`text-black px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='all' && "bg-gray-400"}`} onClick={()=>setResturentType('all')}>All</button>
+            <button className={`text-black px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='south-indian' && "bg-gray-400"}`} onClick={()=>setResturentType('south-indian')}>South Indian</button>
+            <button className={`text-[] text-black px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='north-indian' && "bg-gray-400"}`} onClick={()=>setResturentType('north-indian')}>North Indian</button>
+            <button className={`text-[] text-black px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='chinese' && "bg-gray-400"}`} onClick={()=>setResturentType('chinese')}>Chinese</button>
+            <button className={`text-[] text-black px-1 md:px-4 md:py-2 border-[2px] border-gray-500 ${resturentType==='bakery' && "bg-gray-400"}`} onClick={()=>setResturentType('bakery')}>Backery</button>
         </div>
         <div className='relative flex flex-col md:flex-row justify-between items-center gap-[20px]'>
              

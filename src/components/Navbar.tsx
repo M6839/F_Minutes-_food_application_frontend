@@ -24,7 +24,7 @@ const Navbar = () => {
             <h1 className='text-[24px] md:text-[32px] font-bold text-amber-500'>F<span className='text-gray-600'><i>-minutes</i></span></h1>
             </Link>
             </div>
-            <input type='text' placeholder='search' className='hidden md:block px-[10px] w-[500px] py-[10px] rounded-[10px] border-[1px] border-black'/>
+            <input type='text' placeholder='search' className='hidden md:block text-black px-[10px] w-[500px] py-[10px] rounded-[10px] border-[1px] border-black'/>
             <h1 className='text-[20px] md:text-[24px] text-amber-500 cursor-pointer' onClick={handleLogin}>Login</h1>
             <h1 className='text-[24px] text-amber-500 cursor-pointer' onClick={handleCart}>Cart <span className='bg-blue-600 text-white text-[18px] rounded-[8px] px-2 py-1 '>{cartItems.length}</span></h1>
         </div>

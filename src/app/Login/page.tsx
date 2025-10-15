@@ -25,7 +25,7 @@ export default function Login() {
   };
 
   return (
-    <div className="flex flex-col justify-center mt-24">
+    <div className="flex flex-col justify-center bg-white min-h-screen">
       <h1 className="text-blue-600 font-bold text-2xl md:text-3xl text-center mb-4">Login to your account</h1>
       <div className="p-4 flex flex-col gap-4 border border-black rounded-[10px] md:w-[400px] mx-auto">
         <input 
