@@ -119,7 +119,7 @@ const handleAdditemsToCart = async (item: Product) => {
                             </div>
                             <div className='relative'>
                             <Image  src={`${API_URL}/uploads/${item.image}`} alt={item.productName} width={280} height={120} className='w-[200px] md:w-[280px] h-[120px]'/>
-                            <button className='absolute top-[75px] left-[50px] md:left-[100px] text-white text-[20px] bg-gray-400 px-6 py-1 rounded-[10px]' onClick={()=>handleAdditemsToCart(item)}>ADD</button>
+                            <button className='absolute top-[75px] left-[50px] md:left-[100px] text-white text-[20px] bg-gray-400 px-6 py-1 rounded-[10px]' onClick={()=>handleAdditemsToCart(item)}>Add to cart</button>
                             </div>
                             </div>
                         </div>

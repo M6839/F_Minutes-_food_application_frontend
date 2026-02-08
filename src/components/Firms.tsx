@@ -56,7 +56,7 @@ const Firms = () => {
     }
   return (
     <>
-    <h1 className='font-bold text-[24px] md:text-[30px] mx-4 md:mx-20'>Top Resturent chains in Hyderabad</h1>
+    <h1 className='font-bold text-black text-[24px] md:text-[30px] mx-4 md:mx-20'>Top Resturent chains in Hyderabad</h1>
     <div className='relative flex flex-col md:flex-row justify-between items-center gap-[20px] mx-4 md:mx-20 '>
      
      {

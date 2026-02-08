@@ -27,8 +27,8 @@ export default function Register() {
   };
 
   return (
-    <div className="flex flex-col justify-center mt-24">
-      <h1 className="text-blue-600 font-bold text-2xl md:text-3xl text-center mb-4">Create an account</h1>
+    <div className="flex flex-col justify-center bg-white min-h-screen text-black">
+      <h1 className="text-amber-500 font-bold text-2xl md:text-3xl text-center mb-4">Create an account</h1>
       <div className="p-4 flex flex-col gap-4 border border-black rounded-[10px] md:w-[400px] mx-auto">
         <input 
           placeholder="Username" 
@@ -46,9 +46,9 @@ export default function Register() {
           type="password" 
           onChange={e => setForm({ ...form, password: e.target.value })} 
         />
-        <p>You already have an account? Please login <Link href="/Login" className="text-blue-600 underline">here</Link></p>
+        <p>You already have an account? Please login <Link href="/Login" className="text-amber-500 underline">here</Link></p>
         <button 
-          className="bg-blue-600 rounded-[10px] px-4 h-[40px] text-white" 
+          className="bg-amber-500 rounded-[10px] px-4 h-[40px] text-white" 
           onClick={submit}
         >
           Register

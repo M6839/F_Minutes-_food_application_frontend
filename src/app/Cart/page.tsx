@@ -147,7 +147,7 @@ const handlePlaceOrder = async () => {
 };
 
   return (
-    <div className="p-4 bg-white min-h-screen">
+    <div className="p-4 bg-white min-h-screen text-black">
       <div className='flex justify-between md:mx-20'>
         <h1 className="text-2xl font-bold mb-4">Cart Items</h1>
         <button 

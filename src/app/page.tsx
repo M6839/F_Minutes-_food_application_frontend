@@ -4,13 +4,15 @@ import Productsbar from '@/components/Productsbar'
 import Image from 'next/image'
 import React from 'react'
 import Footer from '@/components/Footer'
+import AllProducts from '@/components/AllProducts'
 const page = () => {
   return (
-    <div className='bg-white min-h-screen'>
+    <div className=' bg-white min-h-screen'>
       <Image src={'/assests/banner.jpg'} alt='banner' width={500} height={500} className='w-full h-[400px]'/>
       <Productsbar/>
       <Firms/>
       <FilterResturent/>
+      <AllProducts/>
       <Footer/>
     </div>
   )

@@ -25,8 +25,8 @@ export default function Login() {
   };
 
   return (
-    <div className="flex flex-col justify-center bg-white min-h-screen">
-      <h1 className="text-blue-600 font-bold text-2xl md:text-3xl text-center mb-4">Login to your account</h1>
+    <div className="flex flex-col justify-center bg-white min-h-screen text-black">
+      <h1 className="text-amber-500 font-bold text-2xl md:text-3xl text-center mb-4">Login</h1>
       <div className="p-4 flex flex-col gap-4 border border-black rounded-[10px] md:w-[400px] mx-auto">
         <input 
           placeholder="Email" 
@@ -39,9 +39,9 @@ export default function Login() {
           type="password" 
           onChange={e => setForm({ ...form, password: e.target.value })} 
         />
-        <p>You have no account? Please create <Link href="/Register" className="text-blue-600 underline">here</Link></p>
+        <p>You have no account? Please create <Link href="/Register" className="text-amber-500 underline">here</Link></p>
         <button 
-          className="bg-blue-600 rounded-[10px] px-4 h-[40px] text-white" 
+          className="bg-amber-500 rounded-[10px] px-4 h-[40px] text-white" 
           onClick={submit}
         >
           Login

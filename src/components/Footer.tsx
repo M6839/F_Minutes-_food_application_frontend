@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Footer = () => {
   return (
-    <div className='mx-4 md:mx-20 mt-10 py-10 border-t-[2px] border-black'>
+    <div className='mx-4 md:mx-20 mt-10 py-10 border-t-[2px] border-black text-black'>
         <div className='flex justify-between'>
             <div>
                 <div className='flex flex-col md:flex-row'>
